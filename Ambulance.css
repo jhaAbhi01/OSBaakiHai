@@ -1,0 +1,10 @@
+.profile_but{
+	height: 80px;
+	width: 80px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Q_qrm-pQvOglWODzULI2OVJX5sPh0IRjEe3AcNYr2dJzOP-wzA");
+	background-size: cover;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin: 20px 10px 20px 30px;
+	float: right;
+}

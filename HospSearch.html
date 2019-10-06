@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HospitalDekho</title>
+	<link rel="stylesheet" type="text/css" href="HospSearch.css">
+</head>
+<body>
+	<div class="part1">
+		<img src="logo.jpg" height="100px" width="150px" class="logo">
+		<img src="name.jpg" height="80px" width=400px class="name">
+		<button class="profile_but" onclick="location.reload();location.href='login1.html'"></button>
+	</div>
+	<div class="search">
+		<form method="POST">
+			<div class="hosplist">
+				<input type ="list" list="hosp" name="hosplist">
+					<datalist id="hosp">
+						<option value="Hosp1"></option>
+						<option value="Hosp2"></option>
+						<option value="Hosp3"></option>
+						<option value="Hosp4"></option>
+					</datalist>
+			</div>
+		</form>
+		<button class="search">Select</button>
+	</div>
+	<div class="display">
+		<label name="hospdisp"></label>
+	</div>
+	<button class="aboutbut" onclick="location.reload();location.href='Aboutus.html'">About us</button>
+	<p class="contact" style="font-family: Times New Roman;font-size: 120%  ">Contact us:<br>Email: jha.aa@somaiya.edu</p>
+</body>
+</html>

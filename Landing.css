@@ -1,0 +1,118 @@
+body{
+	background-image: homeback.jpg;
+}
+.profile_but{
+	height: 80px;
+	width: 80px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Q_qrm-pQvOglWODzULI2OVJX5sPh0IRjEe3AcNYr2dJzOP-wzA");
+	background-size: cover;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin: 20px 10px 20px 30px;
+	float: right;
+}
+.hospbut{
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	border: 2px solid #2FFC89;
+	background-color: white;
+	margin: 0px 0px 0px 200px ;
+}
+.hospbut:hover{
+	border: 2px solid #ffffff;
+	background-color: #2FFC89;
+	align-self: center;
+}
+.ambbut{
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	border: 2px solid #2FFC89;
+	background-color: white;
+	margin: 0px 0px 0px 200px ;
+	
+}
+.ambbut:hover{	
+	border: 2px solid #ffffff;
+	background-color: #2FFC89;
+	align-self: center;
+}
+.hosp-left{
+	float: left;
+	height: 100px;
+	width: 500px;
+/*	border: 2px solid white;*/
+	justify-content: center;
+	margin: 20px 0px 0px 80px ; 
+}
+.amb-right{
+	float: right;
+	height: 100px;
+	width: 500px;
+/*	border: 2px solid white;*/
+	justify-content: center;
+	margin: 20px 80px 0px 0px ;
+}
+.hospamb{
+	display: inline-block;
+	height: 150px;
+	width: 100%;
+/*	border: 2px solid #ffffff;*/
+}
+/*.fb{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	display: inline;
+	cursor: pointer;
+}*/
+.contact{
+	float: right;
+}
+.appointbut{
+	float:center;
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	border: 2px solid #2FFC89;
+	background-color: white;
+}
+.appointbut:hover{	
+	border: 2px solid #ffffff;
+	background-color: #2FFC89;
+}
+.olconsult{
+	float: center;
+	height: 100px;
+	width: 500px;
+/*	border: 2px solid white;*/
+	justify-content: center;
+}
+.olconsultbut{
+	float:center;
+	height: 70px;
+	width: 150px;
+	border-radius: 10px;
+	border: 2px solid #2FFC89;
+	background-color: white;
+}
+.olconsultbut:hover{	
+	border: 2px solid #ffffff;
+	background-color: #2FFC89;
+}
+.aboutbut{
+	height: 40px;
+	width: 80px;
+	border-radius: 10px;
+	border: 2px solid #2FFC89;
+	background-color: white;
+	margin: 20px 20px 20px 20px;
+	display: inline;
+}
+.aboutbut:hover{	
+	border: 2px solid #ffffff;
+	background-color: #2FFC89;
+}
