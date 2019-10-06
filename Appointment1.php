@@ -3,13 +3,11 @@
 <title>Take an appointment</title>
 </head>
 <body>
-	dadasa
-
 <!--<select name="Department" id="dep" onchange="showDetails()">
 <option value="timepass">-->
 <form action="second.php" method="post">
 <input type="hidden" name="Department" value="<? echo $conceptName ?>" />
-<select name="Department" id="dep">;
+<select name="Department" id="dep">
 <?php
 function droplist(){
 $servername = "localhost";
@@ -29,9 +27,9 @@ echo "var conceptName = $('#dep').find(\":selected\").text()";
 droplist();
 ?>
 </select>
-	<input type="submit" value="Search">
+<br>
+<input type="submit" value="Search" class="profile_but">
 </form>
 <!-- </select> -->
-
 </body>
 </html>
